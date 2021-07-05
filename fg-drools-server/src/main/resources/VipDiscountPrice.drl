@@ -1,0 +1,26 @@
+import  com.fg.drools.domain.Product;
+import  com.fg.drools.domain.VipDiscountPrice;
+import  com.fg.drools.domain.Product.ProductType;
+import  com.fg.drools.domain.VipDiscountPrice.VipLevel;
+rule "普通会员购买普通商品"
+    when
+        $vipprice:
+        VipDiscountPrice( product.ProductType ==ProductType.General
+        &&vipLevel==VipLevel.General);
+    then
+        //普通会员购买普通商品无优惠
+        $vipprice.setPayPrice($vipprice.getProduct().getRetailPrice());
+end;
+rule "白金会员购买普通商品"
+    when
+        $vipprice:
+        VipDiscountPrice(vipLevel==VipLevel.Platinum&&product.ProductType
+        ==ProductType.General );
+    then
+       //白金会员购买普通商品优惠50%
+        $vipprice.setPayPrice( $vipprice.getProduct().getRetailPrice()*0.5);
+
+end;
+/**
+ 可扩展性：系统上线后，增加了黄金会员会员类型；其购买普通的优惠规则可以在后添加对应的规则或者另外创建规则文件
+**/

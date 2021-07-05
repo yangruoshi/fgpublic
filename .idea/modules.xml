@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.fg.parent.iml" filepath="$PROJECT_DIR$/com.fg.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg_camel/fg_camel.iml" filepath="$PROJECT_DIR$/fg_camel/fg_camel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg_eureka/fg_eureka.iml" filepath="$PROJECT_DIR$/fg_eureka/fg_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydrools-server/myDrools-server.iml" filepath="$PROJECT_DIR$/mydrools-server/myDrools-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pation-server/pation.iml" filepath="$PROJECT_DIR$/pation-server/pation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaa-server/uaa-server.iml" filepath="$PROJECT_DIR$/uaa-server/uaa-server.iml" />
+    </modules>
+  </component>
+</project>
