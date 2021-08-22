@@ -6,32 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="uaa-server" />
         <module name="pation-server" />
-        <module name="pation" />
-        <module name="fg_eureka" />
-        <module name="myDrools-server" />
-        <module name="fg_camel" />
+        <module name="fg-Drools-server" />
+        <module name="fg-pation-server" />
+        <module name="fg-eureka-server" />
+        <module name="fg-uaa-server" />
+        <module name="fg-Infrastructure-server" />
+        <module name="fg-pation-server (1)" />
+        <module name="fg-camel-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.fg.parent" target="8" />
-      <module name="fg_camel" target="8" />
-      <module name="fg_eureka" target="8" />
-      <module name="myDrools-server" target="1.8" />
-      <module name="pation" target="8" />
+      <module name="fg-camel-server" target="8" />
+      <module name="fg-Drools-server" target="8" />
+      <module name="fg-eureka-server" target="8" />
+      <module name="fg-Infrastructure-server" target="8" />
+      <module name="fg-pation-server" target="8" />
+      <module name="fg-pation-server (1)" target="8" />
+      <module name="fg-uaa-server" target="8" />
       <module name="pation-server" target="8" />
-      <module name="uaa-server" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="fg_camel" options="-parameters" />
-      <module name="fg_eureka" options="-parameters" />
-      <module name="myDrools-server" options="-parameters" />
-      <module name="pation" options="-parameters" />
+      <module name="fg-Drools-server" options="-parameters" />
+      <module name="fg-Infrastructure-server" options="-parameters" />
+      <module name="fg-camel-server" options="-parameters" />
+      <module name="fg-eureka-server" options="-parameters" />
+      <module name="fg-pation-server" options="-parameters" />
+      <module name="fg-uaa-server" options="-parameters" />
       <module name="pation-server" options="-parameters" />
-      <module name="uaa-server" options="-parameters" />
     </option>
   </component>
 </project>

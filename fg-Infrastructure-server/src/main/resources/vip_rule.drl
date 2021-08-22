@@ -1,0 +1,16 @@
+import  com.fg.pation.domain.*
+
+rule "现金充值2万"
+    when
+        orderObject : RechargeOrderRequest( rechargeWay=="CASH" &&  rechargePrice ==20000 );
+    then
+        orderObject.setGrade("白金会员");
+end;
+
+rule "现金充值2万5"
+    when
+        orderObject :
+        RechargeOrderRequest(rechargeWay=="CASH" && rechargePrice == 25000 );
+    then
+        orderObject.setGrade("黄金会员");
+end;

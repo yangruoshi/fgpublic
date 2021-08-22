@@ -12,12 +12,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DroolsSpringConfiguration {
     private final KieServices kieServices = KieServices.Factory.get();
-
     @Bean
     public KieContainer getKieContainer() {
         KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
         kieFileSystem.write(
-                ResourceFactory.newClassPathResource("vip_rule.drl"))
+                ResourceFactory.newClassPathResource("vip_rule.drl"));
        
         KieBuilder kb = kieServices.newKieBuilder(kieFileSystem);
         kb.buildAll();

@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.fg.parent.iml" filepath="$PROJECT_DIR$/com.fg.parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg_camel/fg_camel.iml" filepath="$PROJECT_DIR$/fg_camel/fg_camel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg_eureka/fg_eureka.iml" filepath="$PROJECT_DIR$/fg_eureka/fg_eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mydrools-server/myDrools-server.iml" filepath="$PROJECT_DIR$/mydrools-server/myDrools-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pation-server/pation.iml" filepath="$PROJECT_DIR$/pation-server/pation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uaa-server/uaa-server.iml" filepath="$PROJECT_DIR$/uaa-server/uaa-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg-drools-server/fg-Drools-server.iml" filepath="$PROJECT_DIR$/fg-drools-server/fg-Drools-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg-Infrastructure-server/fg-Infrastructure-server.iml" filepath="$PROJECT_DIR$/fg-Infrastructure-server/fg-Infrastructure-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg-camel-server/fg-camel-server.iml" filepath="$PROJECT_DIR$/fg-camel-server/fg-camel-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg-eureka-server/fg-eureka-server.iml" filepath="$PROJECT_DIR$/fg-eureka-server/fg-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg-pation-server/fg-pation-server.iml" filepath="$PROJECT_DIR$/fg-pation-server/fg-pation-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg-Infrastructure-server/fg-pation-server (1).iml" filepath="$PROJECT_DIR$/fg-Infrastructure-server/fg-pation-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/fg-uaa-server/fg-uaa-server.iml" filepath="$PROJECT_DIR$/fg-uaa-server/fg-uaa-server.iml" />
     </modules>
   </component>
 </project>
