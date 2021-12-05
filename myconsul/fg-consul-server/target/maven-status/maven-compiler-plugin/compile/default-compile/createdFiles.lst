@@ -1,0 +1,3 @@
+com/fg/consul/ServiceDiscoveryApplication.class
+com/fg/consul/servers/FeginServer.class
+com/fg/consul/controllers/DiscoveryClientController.class

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions
+        xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+        xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+        xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+        xmlns:flowable="http://flowable.org/bpmn"
+        typeLanguage="http://www.w3.org/2001/XMLSchema"
+
+        expressionLanguage="http://www.w3.org/1999/XPath"
+        targetNamespace="http://www.flowable.org/processdef"
+>
+    <process id="articleReview1"
+             name="A simple process for article review."
+             isExecutable="true" >
+        <startEvent id="start" />
+        <sequenceFlow sourceRef="start" targetRef="reviewArticle" />
+        <userTask id="reviewArticle" name="Review the submitted tutorial"
+                  flowable:assignee="zhangsan"
+        />
+        <userTask id="reviewArticle_02" name="二级审批"
+                  flowable:assignee="lisi"
+        >
+            <extensionElements>
+
+                <flowable:taskListener
+                        event="assignment"
+
+                        class="com.bpmn.myflowable.FlowableEventListener"></flowable:taskListener>
+            </extensionElements>
+        </userTask>
+        <sequenceFlow sourceRef="reviewArticle" targetRef="decision" />
+        <exclusiveGateway id="decision" />
+
+
+        <sequenceFlow sourceRef="decision" targetRef="reviewArticle_02">
+            <conditionExpression xsi:type="tFormalExpression">
+                <![CDATA[${approved}]]>
+            </conditionExpression>
+        </sequenceFlow>
+
+        <sequenceFlow sourceRef="decision" targetRef="tutorialRejected">
+            <conditionExpression xsi:type="tFormalExpression">
+                <![CDATA[${!approved}]]>
+            </conditionExpression>
+        </sequenceFlow>
+        <sequenceFlow sourceRef="reviewArticle_02" targetRef="end" >
+
+        </sequenceFlow>
+
+        <serviceTask id="tutorialRejected" name="Send out rejection email"
+                     flowable:class="com.bpmn.myflowable.SendMailService" />
+
+        <sequenceFlow sourceRef="tutorialRejected" targetRef="end" />
+        <endEvent id="end" />
+
+    </process>
+    <bpmndi:BPMNDiagram id="BPMNDiagram_articleReview1"  >
+        <bpmndi:BPMNPlane bpmnElement="articleReview1" id="BPMNPlane_articleReview1">
+        </bpmndi:BPMNPlane>
+    </bpmndi:BPMNDiagram>
+</definitions>

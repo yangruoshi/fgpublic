@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/fg-Infrastructure-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-Infrastructure-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-camel-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-camel-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-drools-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-drools-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-eureka-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-eureka-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-pation-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-pation-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-uaa-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fg-uaa-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/fgbpmn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myconsul/fg-consul-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myconsul/fg-consul-customer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myconsul/fg-consul-producer-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myconsul/fg-consul-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myconsul/fg-consul-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myconsul/untitled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-Infrastructure-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-Infrastructure-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-camel-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-drools-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-drools-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-pation-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myeureka/fg-uaa-server/src/main/java" charset="UTF-8" />
   </component>
 </project>

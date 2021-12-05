@@ -4,12 +4,21 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.fg.parent.iml" filepath="$PROJECT_DIR$/com.fg.parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/fg-drools-server/fg-Drools-server.iml" filepath="$PROJECT_DIR$/fg-drools-server/fg-Drools-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg-Infrastructure-server/fg-Infrastructure-server.iml" filepath="$PROJECT_DIR$/fg-Infrastructure-server/fg-Infrastructure-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg-camel-server/fg-camel-server.iml" filepath="$PROJECT_DIR$/fg-camel-server/fg-camel-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg-eureka-server/fg-eureka-server.iml" filepath="$PROJECT_DIR$/fg-eureka-server/fg-eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg-pation-server/fg-pation-server.iml" filepath="$PROJECT_DIR$/fg-pation-server/fg-pation-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg-Infrastructure-server/fg-pation-server (1).iml" filepath="$PROJECT_DIR$/fg-Infrastructure-server/fg-pation-server (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/fg-uaa-server/fg-uaa-server.iml" filepath="$PROJECT_DIR$/fg-uaa-server/fg-uaa-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/fg-Infrastructure-server/fg-Infrastructure-server.iml" filepath="$PROJECT_DIR$/myeureka/fg-Infrastructure-server/fg-Infrastructure-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/fg-camel-server/fg-camel-server.iml" filepath="$PROJECT_DIR$/myeureka/fg-camel-server/fg-camel-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myconsul/fg-consul-config/fg-consul-config.iml" filepath="$PROJECT_DIR$/myconsul/fg-consul-config/fg-consul-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myconsul/fg-consul-customer/fg-consul-customer.iml" filepath="$PROJECT_DIR$/myconsul/fg-consul-customer/fg-consul-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myconsul/fg-consul-producer-server/fg-consul-producer-server.iml" filepath="$PROJECT_DIR$/myconsul/fg-consul-producer-server/fg-consul-producer-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myconsul/fg-consul-server/fg-consul-server.iml" filepath="$PROJECT_DIR$/myconsul/fg-consul-server/fg-consul-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/fg-drools-server/fg-drools-server.iml" filepath="$PROJECT_DIR$/myeureka/fg-drools-server/fg-drools-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/fg-eureka-server/fg-eureka-server.iml" filepath="$PROJECT_DIR$/myeureka/fg-eureka-server/fg-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/fg-pation-server/fg-pation-server.iml" filepath="$PROJECT_DIR$/myeureka/fg-pation-server/fg-pation-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/fg-Infrastructure-server/fg-pation-server (1).iml" filepath="$PROJECT_DIR$/myeureka/fg-Infrastructure-server/fg-pation-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/fg-uaa-server/fg-uaa-server.iml" filepath="$PROJECT_DIR$/myeureka/fg-uaa-server/fg-uaa-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/fgbpmn/fgbpmn.iml" filepath="$PROJECT_DIR$/infrastructure/fgbpmn/fgbpmn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/infrastructure.iml" filepath="$PROJECT_DIR$/infrastructure/infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/myeureka.iml" filepath="$PROJECT_DIR$/myeureka/myeureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myconsul/untitled/untitled.iml" filepath="$PROJECT_DIR$/myconsul/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

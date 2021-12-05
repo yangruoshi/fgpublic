@@ -1,0 +1,16 @@
+server:
+  port: 8085
+spring:
+    application:
+      name: fg-consul
+    cloud:
+      consul:
+        host: 172.16.201.132
+        port: 8500
+        enabled: true
+        discovery:
+          health-check-path: /my-health-check
+          health-check-interval: 20s
+          instance-id: ${spring.application.name}:${server.port}
+        config:
+          enabled: false

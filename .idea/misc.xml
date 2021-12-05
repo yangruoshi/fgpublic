@@ -32,10 +32,24 @@
         <option value="$PROJECT_DIR$/pation-server/pom.xml" />
         <option value="$PROJECT_DIR$/mydrools-server/pom.xml" />
         <option value="$PROJECT_DIR$/fg-Infrastructure-server/pom.xml" />
+        <option value="$PROJECT_DIR$/fg-consul-producer-server/pom.xml" />
+        <option value="$PROJECT_DIR$/fg-consul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myconsul/pom.xml" />
+        <option value="$PROJECT_DIR$/myconsul/fg-consul-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/myeureka/fg-Infrastructure-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myconsul/fg-consul-config/pom.xml" />
+        <option value="$PROJECT_DIR$/myconsul/fg-consul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myconsul/fg-consul-producer-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myconsul/untitled/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/myconsul/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SuppressionsComponent">

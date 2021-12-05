@@ -2,30 +2,48 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pation-server" />
         <module name="fg-Drools-server" />
+        <module name="fg-drools-server" />
+        <module name="untitled" />
+        <module name="fg-uaa-server" />
+        <module name="fg-consul-server" />
+        <module name="fg-pation-server (1)" />
+        <module name="fg-consul-config" />
+        <module name="fg-camel-server" />
+        <module name="fg-consul-customer" />
         <module name="fg-pation-server" />
         <module name="fg-eureka-server" />
-        <module name="fg-uaa-server" />
+        <module name="fg-consul-producer-server" />
+        <module name="fgbpmn" />
         <module name="fg-Infrastructure-server" />
-        <module name="fg-pation-server (1)" />
-        <module name="fg-camel-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="com.fg.parent" target="8" />
+      <module name="com.fg.parent" target="1.8" />
       <module name="fg-camel-server" target="8" />
+      <module name="fg-consul-config" target="8" />
+      <module name="fg-consul-customer" target="8" />
+      <module name="fg-consul-producer-server" target="8" />
+      <module name="fg-consul-server" target="1.8" />
       <module name="fg-Drools-server" target="8" />
+      <module name="fg-drools-server" target="1.8" />
       <module name="fg-eureka-server" target="8" />
       <module name="fg-Infrastructure-server" target="8" />
       <module name="fg-pation-server" target="8" />
       <module name="fg-pation-server (1)" target="8" />
       <module name="fg-uaa-server" target="8" />
+      <module name="fgbpmn" target="8" />
+      <module name="infrastructure" target="8" />
+      <module name="myconsul" target="8" />
+      <module name="myeureka" target="8" />
       <module name="pation-server" target="8" />
+      <module name="untitled" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,10 +51,20 @@
       <module name="fg-Drools-server" options="-parameters" />
       <module name="fg-Infrastructure-server" options="-parameters" />
       <module name="fg-camel-server" options="-parameters" />
+      <module name="fg-consul-config" options="-parameters" />
+      <module name="fg-consul-customer" options="-parameters" />
+      <module name="fg-consul-producer-server" options="-parameters" />
+      <module name="fg-consul-server" options="-parameters" />
+      <module name="fg-drools-server" options="-parameters" />
       <module name="fg-eureka-server" options="-parameters" />
       <module name="fg-pation-server" options="-parameters" />
       <module name="fg-uaa-server" options="-parameters" />
+      <module name="fgbpmn" options="-parameters" />
+      <module name="infrastructure" options="-parameters" />
+      <module name="myconsul" options="-parameters" />
+      <module name="myeureka" options="" />
       <module name="pation-server" options="-parameters" />
+      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>
