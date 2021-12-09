@@ -1,8 +1,0 @@
-com/bpmn/myflowable/ArticleWorkflowController.class
-com/bpmn/myflowable/ArticleWorkflowService.class
-com/bpmn/myflowable/SendMailService.class
-com/bpmn/myflowable/FlowApplication.class
-com/bpmn/myflowable/FlowableEventListener.class
-com/bpmn/myflowable/PublishArticleService.class
-com/bpmn/myflowable/domain/Article.class
-com/bpmn/myflowable/domain/Approval.class
